@@ -8,7 +8,11 @@ describe("Pruebas con promesas", () => {
       expect(hero).toBe(heroes[1]);
     });
   });
-  test("debe retornar un error cuando detecta que el id no existe!", () => {
+<<<<<<< HEAD
+  test("debe retornar un error cuando detecta que el id no existe", () => {
+=======
+  test("debe retornar un error cuando detecta que el id no existe", () => {
+>>>>>>> fd7e4b197fafac1302f403a668ec633ca184532f
     const id = 10;
     return expect(getHeroeByIdAsync(id)).rejects.toBe(
       "No se pudo encontrar el héroe"
